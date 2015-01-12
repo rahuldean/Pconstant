@@ -1,0 +1,29 @@
+{
+  "name": "Point-Proton",
+  "version": "0.0.1",
+  "description": "Product page for Point Messaging",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rahuldean/Point-Proton.git"
+  },
+  "keywords": [
+    "point",
+    "messaging",
+    "product",
+    "launch"
+  ],
+  "author": "Rahul Reddy Malkireddy <godhc@me.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rahuldean/Point-Proton/issues"
+  },
+  "homepage": "https://github.com/rahuldean/Point-Proton",
+  "dependencies": {
+    "express": "~4.10.7",
+    "mongoose": "~3.8.21"
+  }
+}

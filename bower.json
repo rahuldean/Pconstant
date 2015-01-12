@@ -1,0 +1,29 @@
+{
+  "name": "Point-Proton",
+  "main": "index.js",
+  "version": "0.0.1",
+  "homepage": "http://www.nowpoint.me",
+  "authors": [
+    "Rahul Reddy <godhc@me.com>"
+  ],
+  "description": "Product page for point messaging",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "point",
+    "messaging",
+    "product",
+    "launch"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "jquery": "~2.1.3",
+    "bootstrap": "~3.3.1",
+    "angular": "~1.3.8",
+    "fontawesome": "~4.2.0",
+    "lt-ie-9": "~0.1.0",
+    "angular-route": "~1.3.8"
+  }
+}
