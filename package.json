@@ -6,7 +6,7 @@
   "scripts": {
     "start": "supervisor index.js",
     "test": "mocha",
-    "postinstall": "export HOME=/var/lib/openshift/[instance-id]/app-root/runtime/repo; sudo ./node_modules/bower/bin/bower install"
+    "postinstall": "export HOME=$HOME/app-root/runtime/repo; ./node_modules/bower/bin/bower install"
   },
   "repository": {
     "type": "git",
