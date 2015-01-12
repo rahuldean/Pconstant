@@ -4,6 +4,7 @@
   "description": "Product page for Point Messaging",
   "main": "index.js",
   "scripts": {
+    "start": "supervisor index.js",
     "test": "mocha"
   },
   "repository": {
