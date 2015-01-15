@@ -1,4 +1,46 @@
-<div class="jumbotron">
-    <img src="img/logo250x500trans.png">
-    <h1>{{heading}}</h1>
-</div> 
+<div class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <img src="img/logo250x500trans.png" height="50px">
+        </div>
+    </div>
+
+</div>
+<div id="box">
+    <div id="overlay">
+        <p id="content">{{heading}}</p>
+    </div>
+</div>
+<div class="container">
+    <div class="row mt centered">
+        <div class="col-lg-6 col-lg-offset-3">
+            <h1 class="enhance">Be the first to get on <strong>Point</strong></h1>
+            <h3 class="sub-enhance">Signup to get early access</h3>
+            <div id="footer">
+                <form action="/signup" id="contact" method="post" name="contact">
+                    <fieldset>
+                        <input id= "name" name="name" placeholder="Username" required=""
+                               tabindex="1" type="text">
+                    </fieldset>
+                    <fieldset>
+                        <input id= "email" name="email" placeholder="Email (We will never spam you.That's a promise)" required=""
+                               tabindex="2" type="email">
+                    </fieldset>
+                    <fieldset>
+
+                    </fieldset>
+                    <label class="pull-left sub-enhance">Participate in Beta?</label>
+                    <div class="form-group">
+                        <input id="toggle"
+                               name="beta" tabindex="3" type="checkbox"> <label for="toggle" data-on="Yes" data-off="No"></label>
+                    </div>
+                    <fieldset>
+                        <button  id="contact-submit" tabindex="4" type="submit">Submit</button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+    <hr/>
+</div>
+
