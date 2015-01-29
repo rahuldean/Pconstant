@@ -1,4 +1,4 @@
-var SignUp              = require('../models/signUp');
+var SignUp              = require('../models/signup');
 
 exports.addUser         = function(email, callback){
     if(typeof email !== 'undefined' && email !== '' && emailValidate(email)){
