@@ -1,38 +1,46 @@
-<div class="navbar navbar-default navbar-fixed-top">
+<div class="navbar navbar-default navbar-fixed-top" xmlns="http://www.w3.org/1999/html">
     <div class="container-fluid">
         <div class="navbar-header">
             <img src="img/logo250x500trans.png" height="50px">
         </div>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="mailto:hello@nowpoint.me">hello@nowpoint.me</a></li>
+            </ul>
     </div>
 
 </div>
 <div id="box">
     <div id="overlay">
         <p id="content">{{heading}}</p>
+        <p class="sub">No gimmicks, just better conversations.</p>
     </div>
 </div>
 <div class="container">
     <div class="row mt centered">
         <div class="col-lg-6 col-lg-offset-3">
             <h1 class="enhance">Features</h1>
-            <h3 class="sub-enhance">Unclutter your conversations</h3>
         </div>
     </div>
     <div class="row mt centered">
         <div class="col-lg-4">
-            <i class="fa fa-birthday-cake fa-5x" style="color: #2196f3"></i>
-            <h4 class="enhance">1. Topics</h4>
-            <p>Use topics to group similar conversations and be on track</p>
+            <i class="fa fa-paper-plane fa-5x" style="color: #FFA726"></i>
+            <h4 class="enhance">Subjects</h4>
+            <p>Know what's going to be said before it's said! With subjects, it's easy to keep your conversation focused and to the point.</p>
         </div>
         <div class="col-lg-4">
-            <i class="fa fa-users fa-5x" style="color: #e65100"></i>
-            <h4 class="enhance">2. Subjects</h4>
-            <p>Add context to your conversations using subjects </p>
+            <i class="fa fa-lightbulb-o fa-5x" style="color: #26A69A"></i>
+            <h4 class="enhance">Topics</h4>
+            <p>Have a question or topic you want to discuss? Point will help you find the right people in your extended network to reach out to.</p>
         </div>
         <div class="col-lg-4">
-            <i class="fa fa-tags fa-5x" style="color: #4caf50"></i>
-            <h4 class="enhance">3. Scintillating tags</h4>
-            <p>Convey your expertise using short and simple tags</p>
+            <i class="fa fa-clock-o  fa-5x" style="color: #607D8B"></i>
+            <h4 class="enhance">Busy</h4>
+            <p>Messages will not pile up and distract you when you're busy. Point can send auto-replies and block incoming messages.</p>
+        </div>
+    </div>
+    <div class="row mt centered">
+        <div class="col-md-6 col-md-offset-3">
+            <button id="bestPartPopover" type="button" class="btn btn-lg btn-info" data-placement="top" data-toggle="popover" title="RESPECT" data-content="Point absolutely respects you, your time and your intelligence. Every feature is designed to give you a cleaner, smarter and more professional messaging experience so that you can easily stay in touch, find the right people to talk to, and get work done faster.">The best part?</button>
         </div>
     </div>
     <hr/>
@@ -51,11 +59,11 @@
         </div>
         <div class="col-md-6 col-md-offset-3" id="signUpForm" ng-show="!showAlert">
             <h1 class="enhance">Be the first to get on <strong>Point</strong></h1>
-            <h3 class="sub-enhance">Signup to get early access</h3>
+            <h3 class="sub-enhance">Sign up to get early access!</h3>
             <br/>
             <form class="form-inline">
                 <div class="form-group" ng-class="formValidationClass">
-                    <label class="sr-only" for="emailAddress">No spamming, that's promise</label>
+                    <label class="sr-only" for="emailAddress">No spam, that's promise</label>
                     <div class="input-group input-group-lg">
                         <div class="input-group-addon">
                             <i class="fa fa-at "></i>
@@ -63,11 +71,27 @@
                         <input type="text" class="form-control" id="emailAddress" placeholder="your email" required ng-model="emailAddress">
                     </div>
                 </div>
-                <button type="submit" class="btn btn-info btn-lg" ng-click="launchSignUpSubmit()">JOIN</button>
+                <button type="submit" class="btn btn-info btn-lg" ng-click="launchSignUpSubmit()">Join</button>
             </form>
-            <p class="enhance"><i class="fa fa-ban "></i> No spamming, that's a promise</p>
+            <p class="enhance"><i class="fa fa-ban "></i> No spam, that's a promise.</p>
+        </div>
+        <div class="col-md-6 col-md-offset-3">
+            <div>
+                <h2><strong style="color:#00b3ee">made for</strong></h2>
+                    <ul>
+                        <li><h2 class="first">[You]</h2></li>
+                        <li><h2 class="lang">[Friends]</h2></li>
+                        <li><h2 class="lang">[Family]</h2></li>
+                        <li><h2 class="lang">[Colleagues]</h2></li>
+                        <li><h2 class="lang">[Professionals]</h2></li>
+                    </ul>
+            </div>
         </div>
     </div>
-    <hr/>
+    <!--<div class="row mt centered">-->
+        <!--<div class="col-md-6 col-md-offset-3">-->
+            <!--<a href="mailto:hello@nowpoint.me">hello@nowpoint.me</a>-->
+            <!--</div>-->
+        <!--</div>-->
 </div>
 

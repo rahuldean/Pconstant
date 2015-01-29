@@ -1,6 +1,20 @@
 angular.module('LaunchCtrl', [])
     .controller('LaunchController', ['$scope', 'Launch',function($scope, Launch){
-        $scope.heading = "Sensible messaging";
+        $('#bestPartPopover').popover();
+        var lang = $('.lang, .first');
+        var langIndex = -1;
+
+        function showNextLang() {
+            ++langIndex;
+            lang.eq(langIndex % lang.length)
+                .fadeIn(1500)
+                .delay(2000)
+                .fadeOut(1500, showNextLang);
+        }
+
+        showNextLang();
+
+        $scope.heading = "Point Messaging";
         $scope.showAlert = false;
         $scope.isError = false;
         $scope.alertMessage = "";
