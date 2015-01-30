@@ -11,7 +11,7 @@ module.exports            = function(app){
         err.isError = true;
         res.send(err)
       } else {
-        res.send({message: 'You are in, you are a step closer to sensible messaging. We will keep you updated', isError: false})
+        res.send({message: 'You are one step closer to sensible messaging!', isError: false})
       }
     });
   });
